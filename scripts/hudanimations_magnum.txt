@@ -358,75 +358,75 @@ event DamagedPlayer
 {
 	Animate DamageAccountLabel fgcolor "255 170 35 255" linear 0.0 0.0
 	Animate DamageAccountLabel fgcolor "255 170 35 255" linear 0.01 0.0
-	Animate DamageAccountLabel fgcolor "255 215 0 100" linear 0.05 0.2
+//	Animate DamageAccountLabel fgcolor "255 215 0 100" linear 0.05 0.2
 	Animate DamageAccountLabel fgcolor "215 215 215 0" Accel 0.3 4.0
 	
 	Animate DamageAccountLabel2 fgcolor "255 170 35 255" linear 0.0 0.0
 	Animate DamageAccountLabel2 fgcolor "255 170 35 255" linear 0.01 0.0
-	Animate DamageAccountLabel2 fgcolor "255 215 0 100" linear 0.05 0.2
+//	Animate DamageAccountLabel2 fgcolor "255 215 0 100" linear 0.05 0.2
 	Animate DamageAccountLabel2 fgcolor "215 215 215 0" Accel 0.3 4.0
 	
-	Animate DamageAccountLabel3 fgcolor "255 170 35 255" linear 0.0 0.0
-	Animate DamageAccountLabel3 fgcolor "255 170 35 255" linear 0.01 0.0
-	Animate DamageAccountLabel3 fgcolor "255 215 0 100" linear 0.05 0.2
-	Animate DamageAccountLabel3 fgcolor "215 215 215 0" Accel 0.3 4.0
+//	Animate DamageAccountLabel3 fgcolor "255 170 35 255" linear 0.0 0.0
+//	Animate DamageAccountLabel3 fgcolor "255 170 35 255" linear 0.01 0.0
+//	Animate DamageAccountLabel3 fgcolor "255 215 0 100" linear 0.05 0.2
+//	Animate DamageAccountLabel3 fgcolor "215 215 215 0" Accel 0.3 4.0
 	
-	Animate DamageAccountLabel12 fgcolor "255 110 20 255" linear 0.0 0.0
-	Animate DamageAccountLabel12 fgcolor "255 110 20 255" linear 0.01 0.0
-	Animate DamageAccountLabel12 fgcolor "255 215 0 180" linear 0.1 0.3
-	Animate DamageAccountLabel12 fgcolor "215 215 215 0" Accel 0.4 5.0
+//	Animate DamageAccountLabel12 fgcolor "255 110 20 255" linear 0.0 0.0
+//	Animate DamageAccountLabel12 fgcolor "255 110 20 255" linear 0.01 0.0
+//	Animate DamageAccountLabel12 fgcolor "255 215 0 180" linear 0.1 0.3
+//	Animate DamageAccountLabel12 fgcolor "215 215 215 0" Accel 0.4 5.0
 	
-	Animate DamageAccountLabel22 fgcolor "255 110 20 255" linear 0.0 0.0
-	Animate DamageAccountLabel22 fgcolor "255 110 20 255" linear 0.01 0.0
-	Animate DamageAccountLabel22 fgcolor "255 215 0 180" linear 0.1 0.3
-	Animate DamageAccountLabel22 fgcolor "215 215 215 0" Accel 0.4 5.0
+//	Animate DamageAccountLabel22 fgcolor "255 110 20 255" linear 0.0 0.0
+//	Animate DamageAccountLabel22 fgcolor "255 110 20 255" linear 0.01 0.0
+//	Animate DamageAccountLabel22 fgcolor "255 215 0 180" linear 0.1 0.3
+//	Animate DamageAccountLabel22 fgcolor "215 215 215 0" Accel 0.4 5.0
 	
-	Animate DamageAccountLabel32 fgcolor "255 110 20 255" linear 0.0 0.0
-	Animate DamageAccountLabel32 fgcolor "255 110 20 255" linear 0.01 0.0
-	Animate DamageAccountLabel32 fgcolor "255 215 0 180" linear 0.1 0.3
-	Animate DamageAccountLabel32 fgcolor "215 215 215 0" Accel 0.4 5.0
+//	Animate DamageAccountLabel32 fgcolor "255 110 20 255" linear 0.0 0.0
+//	Animate DamageAccountLabel32 fgcolor "255 110 20 255" linear 0.01 0.0
+//	Animate DamageAccountLabel32 fgcolor "255 215 0 180" linear 0.1 0.3
+//	Animate DamageAccountLabel32 fgcolor "215 215 215 0" Accel 0.4 5.0
 	
-	Animate DamageAccountLabel13 fgcolor "255 40 0 255" linear 0.0 0.0
-	Animate DamageAccountLabel13 fgcolor "255 40 0 255" linear 0.01 0.0
-	Animate DamageAccountLabel13 fgcolor "255 215 0 255" linear 0.1 0.3
-	Animate DamageAccountLabel13 fgcolor "215 215 215 0" Accel 0.6 5.0
+//	Animate DamageAccountLabel13 fgcolor "255 40 0 255" linear 0.0 0.0
+//	Animate DamageAccountLabel13 fgcolor "255 40 0 255" linear 0.01 0.0
+//	Animate DamageAccountLabel13 fgcolor "255 215 0 255" linear 0.1 0.3
+//	Animate DamageAccountLabel13 fgcolor "215 215 215 0" Accel 0.6 5.0
 	
-	Animate DamageAccountLabel23 fgcolor "255 40 0 255" linear 0.0 0.0
-	Animate DamageAccountLabel23 fgcolor "255 40 0 255" linear 0.01 0.0
-	Animate DamageAccountLabel23 fgcolor "255 215 0 255" linear 0.1 0.3
-	Animate DamageAccountLabel23 fgcolor "215 215 215 0" Accel 0.6 5.0
+//Animate DamageAccountLabel23 fgcolor "255 40 0 255" linear 0.0 0.0
+//	Animate DamageAccountLabel23 fgcolor "255 40 0 255" linear 0.01 0.0
+//	Animate DamageAccountLabel23 fgcolor "255 215 0 255" linear 0.1 0.3
+//	Animate DamageAccountLabel23 fgcolor "215 215 215 0" Accel 0.6 5.0
 	
-	Animate DamageAccountLabel33 fgcolor "255 40 0 255" linear 0.0 0.0
-	Animate DamageAccountLabel33 fgcolor "255 40 0 255" linear 0.01 0.0
-	Animate DamageAccountLabel33 fgcolor "255 215 0 255" linear 0.1 0.3
-	Animate DamageAccountLabel33 fgcolor "215 215 215 0" Accel 0.6 5.0
+//	Animate DamageAccountLabel33 fgcolor "255 40 0 255" linear 0.0 0.0
+//	Animate DamageAccountLabel33 fgcolor "255 40 0 255" linear 0.01 0.0
+//	Animate DamageAccountLabel33 fgcolor "255 215 0 255" linear 0.1 0.3
+//	Animate DamageAccountLabel33 fgcolor "215 215 215 0" Accel 0.6 5.0
 	
-	Animate DamageAccountLabel14 fgcolor "255 40 0 255" linear 0.0 0.0
-	Animate DamageAccountLabel14 fgcolor "255 40 0 255" linear 0.01 0.0
-	Animate DamageAccountLabel14 fgcolor "255 215 0 255" linear 0.1 0.3
-	Animate DamageAccountLabel14 fgcolor "215 215 215 0" Accel 0.6 5.0
+//	Animate DamageAccountLabel14 fgcolor "255 40 0 255" linear 0.0 0.0
+//	Animate DamageAccountLabel14 fgcolor "255 40 0 255" linear 0.01 0.0
+//	Animate DamageAccountLabel14 fgcolor "255 215 0 255" linear 0.1 0.3
+//	Animate DamageAccountLabel14 fgcolor "215 215 215 0" Accel 0.6 5.0
 	
-	Animate DamageAccountLabel24 fgcolor "255 40 0 255" linear 0.0 0.0
-	Animate DamageAccountLabel24 fgcolor "255 40 0 255" linear 0.01 0.0
-	Animate DamageAccountLabel24 fgcolor "255 215 0 255" linear 0.1 0.3
-	Animate DamageAccountLabel24 fgcolor "215 215 215 0" Accel 0.6 5.0
+//	Animate DamageAccountLabel24 fgcolor "255 40 0 255" linear 0.0 0.0
+//	Animate DamageAccountLabel24 fgcolor "255 40 0 255" linear 0.01 0.0
+//	Animate DamageAccountLabel24 fgcolor "255 215 0 255" linear 0.1 0.3
+//	Animate DamageAccountLabel24 fgcolor "215 215 215 0" Accel 0.6 5.0
 	
-	Animate DamageAccountLabel34 fgcolor "255 40 0 255" linear 0.0 0.0
-	Animate DamageAccountLabel34 fgcolor "255 40 0 255" linear 0.01 0.0
-	Animate DamageAccountLabel34 fgcolor "255 215 0 255" linear 0.1 0.3
-	Animate DamageAccountLabel34 fgcolor "215 215 215 0" Accel 0.6 5.0
+//	Animate DamageAccountLabel34 fgcolor "255 40 0 255" linear 0.0 0.0
+//	Animate DamageAccountLabel34 fgcolor "255 40 0 255" linear 0.01 0.0
+//	Animate DamageAccountLabel34 fgcolor "255 215 0 255" linear 0.1 0.3
+//	Animate DamageAccountLabel34 fgcolor "215 215 215 0" Accel 0.6 5.0
 	
 	Animate DamageAccountLabelShadow fgcolor "0 0 0 255" linear 0.0 0.0
 	Animate DamageAccountLabelShadow fgcolor "0 0 0 150" linear 0.1 0.3
 	Animate DamageAccountLabelShadow fgcolor "35 35 35 0" Accel 0.5 5.0
 	
-	Animate DamageAccountLabelShadow2 fgcolor "0 0 0 255" linear 0.0 0.0
-	Animate DamageAccountLabelShadow2 fgcolor "0 0 0 150" linear 0.1 0.3
-	Animate DamageAccountLabelShadow2 fgcolor "35 35 35 0" Accel 0.5 5.0
+//	Animate DamageAccountLabelShadow2 fgcolor "0 0 0 255" linear 0.0 0.0
+//	Animate DamageAccountLabelShadow2 fgcolor "0 0 0 150" linear 0.1 0.3
+//	Animate DamageAccountLabelShadow2 fgcolor "35 35 35 0" Accel 0.5 5.0
 	
-	Animate DamageAccountLabelShadow3 fgcolor "0 0 0 200" linear 0.0 0.0
-	Animate DamageAccountLabelShadow3 fgcolor "0 0 0 150" linear 0.1 0.3
-	Animate DamageAccountLabelShadow3 fgcolor "35 35 35 0" Accel 0.4 4.5
+//	Animate DamageAccountLabelShadow3 fgcolor "0 0 0 200" linear 0.0 0.0
+//	Animate DamageAccountLabelShadow3 fgcolor "0 0 0 150" linear 0.1 0.3
+//	Animate DamageAccountLabelShadow3 fgcolor "35 35 35 0" Accel 0.4 4.5
 	
 	//Animate ScoreboardAnimatedOverlay Position "0 0"		Linear	0.0	0.0
 	//Animate ScoreboardAnimatedOverlay Size "f0 480"		Linear	0.0	0.0
