@@ -1,0 +1,18 @@
+thanks devamar for some early design decision help and being cool
+thanks Quartz, Sir Villeta, DrFallen, Lynode, and Redd0t for hudas iscariote as an inspiration
+thanks wiethoofd for the HLExtract.exe thing, hudanimations manifest, pin stuff, and being cool
+thanks knuckles, fog, etc for crosshair stuff
+thanks clovervidia for being a captions beast
+thanks to kermit and qualx for the spiral uber charge meter
+thanks omni for the building panels, backpack stuff, sourcescheme, misc files, and being alright
+thanks -NAME REDACTED- for the mannterface winpanel
+thanks joshuawn for some vtf crosshairs
+thanks stochast1c for a bit of his sourcescheme & related files
+thanks rawrsor for some materialhud vtf's
+thanks face2face for some payload stuff
+thanks thesupremecommander for statusspec images
+thanks matt from medhud for some stuff
+thanks whayay for yahud vtf's
+
+thanks to everyone who used and enjoyed prism hud, and kept me working on huds
+and thank you checking out this hud too!

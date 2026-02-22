@@ -1,0 +1,16 @@
+"motd_entries"
+{
+	"last_request_time"		"2001-01-01 01:01:01"
+	"last_request_language"		"english"
+	"100"
+	{
+		"post_time"		"2001-01-01 01:01:02"
+		"title_english"		""
+		"text_english"		""
+		"url"		"http://www.teamfortress.tv/34567/magnum-hud"
+		"image"		""
+		"header_type"		"2"
+		"header_english"		""
+		"header_icon"		""
+	}
+}

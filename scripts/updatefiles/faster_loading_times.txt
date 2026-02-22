@@ -1,0 +1,15 @@
+hey hud goers!
+
+every mod you have that's not in a vpk is really bad for loading times
+tf2 checks every file it loads to see if it exists in each folder in custom
+this is obviously a pretty long process with lots of folders in custom
+
+vpk's have the advantage of having a list of all files within them
+so only files inside the vpk are checked and loaded
+
+TO TURN THIS HUD INTO A VPK
+install all fonts (fonts dont load from vpk's but do from installed fonts)
+drag _MagnumHUD over /steamapps/common/team fortress 2/bin/vpk.exe
+move the _MagnumHUD folder out of custom into custom_disabled or something
+
+keep in mind you'll have to vpkify every update

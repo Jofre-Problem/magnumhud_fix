@@ -1,0 +1,6 @@
+run _update.bat
+run update_nonenglish.bat just to be sure
+change data.txt
+change version.cfg
+disable all overrides
+run repair_crosshairfile.bat to return it to unmodded (must be after disabling overrides)

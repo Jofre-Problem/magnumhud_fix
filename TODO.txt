@@ -1,0 +1,29 @@
+tournie spec stuff
+killer id
+patch up for updates
+make health go up to 4 digits and show the lots anim at 5 instead
+get ahudm.ini to work for when ahudm's ever released
+increase the size difference between damage account digit amounts
+edit jarcrosses.ttf
+figure out if finetuned adjustment font would work
+fix the comp ladder menu
+
+res fixing:
+	yres: 480
+	blockfont sizes for cutting shit off
+	make captions and chat a bit smaller
+	yres: 720
+	a bit of misalignment on the health blockfonts
+	4by3:
+	class select overlap
+	
+	to check: low ammos
+
+
+play, comp, mvm, 
+
+
+BOUNTY HUNTING:
+change console initial positioning (p sure not possible)
+reliable command to alias to that always fires OR event that can be triggered by another panel loading
+sv_pure-safe location for sounds without using gamesounds/scripting files OR a way for scripting files to be used for general purposes

@@ -1,0 +1,64 @@
+I didn't really write any documentation on this, but used a lot of new and a lot of not frequently used techniques
+Here are the names I've been calling them in my head, and a little brief explanation on the how and why, and good examples
+sorry for no tutorials, but with an example and some experimenting it shouldn't be too hard to wrap your head around
+
+these range from very niche, to extremely-useful-and-I-don't-know-how-people-didn't-figure-this-out-earlier-it's-that-good
+though I'd only recommend these things for hud editors who know their way around a hud already
+if you're new to hud editing, most of these will just seem extremely complicated and confusing
+
+
+Animation Locking
+	uses a looping animation to constantly change something about an element, that normally isn't changable. This lets you do a few things you normally couldn't.
+	examples: scope removal, no chat bg
+	
+BG'd Team Colored Text
+	not necessarily teamcolored, but an inverted font you put over a background that acts like the text. The main use was in getting it teamcolored, though getting an image to fill the text is another notable use. The reason why this isn't called just "team colored text" is because it requires a bg, and there does exist another method for team colored text without a bg (using echo generating) but it isn't very practical.
+	examples: health and ammo
+
+#Base includes
+	While I was the one who starting adopting using #base, the credit for this one has to go to Wiethoofd for popularizing and coming up with a meaningful usage (with an auto-updater), as well as coming up the term (afaik). This allows you to split a file up into multiple parts, or use a template, or set up overrides, depending on how you look at it.
+	examples: overrides folder
+
+Closecaption Storage
+	pretty simple filesystem trick, where you store closecaption files inside a folder that starts with closecaption_ so that you can use cc_lang to access them without clogging up your resource folder
+	examples: resource/closecaption_ folder
+	
+Number/digit pushing
+	using a wide blank blockfont with auto_wide_tocontents on a variable label, and pinning something to it so that it only appears when that blockfont label reaches a certain number or number of digits. Related to oversizing and dynamic blockfonts.
+	examples: health, huddamageaccount.res
+	
+Dynamic Blockfonts
+	unlike traditional, 'static' blockfonts (which are mostly only used for respawn labels in the tournament ui), these are blockfonts that are designed to act differently given different numbers. There are several different ways to use them, which each do a slightly different thing to a slightly different effect.
+	examples: health and ammo
+	
+Echo Generating
+	a way to make a script influence the hud. A script runs, that logs an echo to a file, saying #base something. This generated file is loaded through #base itself, so that when it doesn't exist it's doing nothing, while when it is generated it points to another file that gets loaded. This would require a restart, a hud_reloadscheme, or the generated file to be generated before the affected file loads.
+	examples: enable_motd.cfg, disable_motd.cfg
+
+Firstrun Cfg
+	a cfg that only runs a certain number of times, not necessarily run only on the first run but that's the biggest use. It does this by trying to exec a cfg that disables the script, when it fails to load the cfg on the first run (or whatever it's designed to do) it runs a bunch of commands, one of which generated the disabling cfg, so that next time it will successfully load and the commands won't run.
+	examples: firstrun.cfg, fifthrun.cfg
+	
+Health Bonus Bar
+	I don't know how much credit I can claim on this one (colly was the first to make it but didn't tell anyone how to do it, independently I figured out how and from me is where other people learned how, and now a few huds had it before mine got released) but no one really ever confirmed any terminology for it. This is setting HealthDeathWarning to 1.0 and using the PlayerStatusHealthBonusImage element as your healthcross. The advantage is you can change the image of it without problems in sv_pure, and you can make it go in any direction, though you would need to set it up more carefully (see oversizing).
+	examples: health
+	
+Localization Editing
+	Here's a bit of history: while localization editing has been around for a long time by editing tf_english.txt, it never got popular because it required editing the files outside of custom and would break / require updating every update. At some point tf_english.txt did start working inside custom, but it still never got popular because being unupdated (and localization updates are very common) would cause issues. People've tried solutions (MrModez's mod installer being the most notable one) but never really worked. Chat_english solves this, along with the several other localization files around that people never seemed to use, but I digress. I need to mention it now, even though it's been around for a while, because of how useful it is for team colored text, number pushing and digit pushing, and dynamic blockfonts, and without localization editing would be impossible to do a tenth of the stuff you can.
+	examples: chat_english.txt
+	
+Oversizing
+	You create an element that's much larger than it needs to be, with the intention of positioning it so that most of it's not visible (by having it offscreen, by having it outside an element's boundaries, or by having it covered up). It seems pretty simple, but few hud editors ever use this to a good effect, and definitely could use more exploring.
+	examples: targetids, gmang health, http://www.teamfortress.tv/32052/casting-hud-design-contest#23
+
+Refract Blurring
+	Using a refract material to create a blur effect.
+	examples: health, server entry info, team / class select
+	
+Refract Masking
+	Because refract materials placed on the hud will act as a window through hud elements, refract masking using a refract material to 'mask' elements of the hud. Basically, you can hide or change the opacity of elements that you normally couldn't, cover things up without having to get some ugly black rectangle on it, or change the opacity in ways you normally couldn't (ie. masking something into the shape of a circle).
+	examples: health and ammo, transparent viewmodels
+
+TriUber
+	Using a CircularProgressBar as an ubermeter. It was originally made by Qualx, but he name is a carryover from BelleHUD by Kermit that uses a triangle for the ubermeter (and afaik was the first public release), though there's no reason to limit it to a triangle. It obviously fills circularly (or more accurately, empties, it's the opposite of what you'd expect because it assumes you're going 100 to 0 and not the other way around), as well as allows images and supports multiple different CircularProgressBars all referencing uber at one time unlike the normal chargemeter.
+	examples: medic charge, targetids

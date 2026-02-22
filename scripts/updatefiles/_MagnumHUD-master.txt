@@ -1,0 +1,9 @@
+Title=MAGNUM HUD
+Description=Shopping is fun!
+Version=1.0.0
+Link=
+Date=2015-11-19
+Category=HUD
+Author=JarateKing
+Role=Made the HUD
+Profile=http://steamcommunity.com/profiles/76561198022106397
