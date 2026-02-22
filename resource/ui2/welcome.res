@@ -8,7 +8,7 @@
 		"ypos" "-10" //			"65"
 		"zpos"			"50000"
 		"wide"			"f0"
-		"tall"			"490"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"

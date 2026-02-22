@@ -284,14 +284,43 @@ Scheme
 		}
 		"ChatFont"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"15"	[$WIN32]
-				"tall"		"18"	[$X360]
-				"weight"	"700"
+				"tall"		"12"
+				"weight"	"300"
 				"dropshadow"	"1"
 			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"300"
+				"dropshadow"	"1"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"300"
+				"dropshadow"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"300"
+				"dropshadow"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"300"
+				"dropshadow"	"1"
+			}			
+
 		}
 
 

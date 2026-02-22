@@ -89,7 +89,7 @@
 		"ypos" "r30" //			"65"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"50"
+		"tall"			"0"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"

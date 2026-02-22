@@ -1,8 +1,8 @@
-#base "..\ui2\motd_disabled.txt"
-#base "..\ui2\motd_shown.txt"
+//#base "..\ui2\motd_disabled.txt"
+//#base "..\ui2\motd_shown.txt"
 //#base "..\ui2\nowelcome_generated.txt"
 //#base "..\ui2\welcome.res"
-#base "..\ui2\motd_hidden.res"
+//#base "..\ui2\motd_hidden.res"
 
 #base "..\..\overrides\serverlabels.res"
 #base "..\..\cfg\magnumhud.txt"
